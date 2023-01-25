@@ -44,7 +44,6 @@ with open('all.txt', 'w', encoding='utf-8') as file:
         file.write('\n')
         for i in all[key]:
             text = i.strip()
-
             file.write(text)
             file.write('\n')
             print(text)
